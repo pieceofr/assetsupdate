@@ -1,0 +1,26 @@
+# Ignore all files
+*
+
+# Allow .py files
+!*.py
+
+# Optional: Exclude specific common folders
+!.gitignore
+
+# Ignore common non-python files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.log
+*.db
+.DS_Store
+*.sqlite3
+*.env
+*.venv
+.env/
+.venv/
+.vscode/
+.idea/
+*.swp
